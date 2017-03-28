@@ -1,0 +1,165 @@
+.header{
+	position: relative;
+	height: 120px;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+.header .logo {
+	display: inline-block;
+	position: relative;
+	max-height: 100%;
+	float: left;
+	margin-right: 0;
+	max-width: 20%;
+}
+
+.header .logo a img {
+	max-width: 100%;
+	height: 80px;
+}
+
+.header .search {
+	display: inline-block;
+	position: relative;
+	width: 620px;
+	text-align: center;
+	clear: left;
+	margin-left: 20px;
+	height: 100%;
+}
+
+.header .search input {
+	position: relative;
+	width: 100%;
+	height: 45px;
+	font-size: 12pt;
+	border: 1px solid #D8D8D8;
+	box-shadow: 0px 2px 5px #B3B8BA;
+	padding: 15px;
+	background: url('mic.png') no-repeat;
+	background-position: right;
+	background-size: 5%;
+	margin: 10px 0 0 0px;
+	background-color: white;
+	
+}
+
+
+.header .search .left_nav{
+	float: left;
+}
+
+.header .search .right_nav{
+	float: right;
+}
+
+.header .far_right_nav {
+	position: relative;
+	float: right;
+	margin: 10px 0 0 20px;
+}
+
+.far_right_nav nav img {
+	height: 26px;
+	width: 26px;
+	top: 7px;
+	position: relative;
+
+}
+
+.far_right_nav nav button {
+	background-color: #3388BD;
+	color: white;
+	height: 30px;
+	width: 80px;
+	border: 1px solid blue;
+}
+
+.header .nav-bar {
+	margin-top: 30px;
+
+}
+
+.nav-bar a {
+	margin-right: 10px;
+	text-decoration: none;
+	font-size: 11pt;
+	font-weight: bold;
+	color: grey;
+}
+
+.nav-bar a:hover {
+	color: black;
+}
+
+.left {
+	position: relative;
+	display: inline-block;
+	
+	width: 18%;
+}
+
+.results {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+#stat {
+	color: grey;
+	font-size: 11pt;
+}
+
+.blue_title {
+	color: blue;
+	font-size: 19px;
+}
+
+.results a {
+	text-decoration: none;
+}
+
+.blue_title:hover {
+	text-decoration: underline;
+}
+
+.no_space {
+	margin-top: 0px;
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+	height: 42px;
+	width: 100%;
+	background-color: #F2F5F7;
+}
+
+.left-nav{
+	float: left;
+	margin-left: 16px;
+}
+
+.right-nav{
+	float: right;
+	margin-right: 16px;
+}
+
+footer nav {
+	
+	padding: 15px 0 0 0;
+}
+
+footer nav a {
+	padding: 3px 14px;
+	color: #646464;
+}
+
+footer nav a:hover{
+	text-decoration: underline;
+}

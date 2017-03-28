@@ -1,0 +1,120 @@
+body {
+	font-size: 10pt;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top_bar {
+	position: relative;
+	height: 50px;
+}
+
+.top_bar nav img {
+	height: 26px;
+	width: 26px;
+	top: 7px;
+	position: relative;
+}
+
+.top_bar nav {
+	float: right;
+}
+
+.top_bar a {
+	margin: 0 7.5px;
+}
+
+.top_bar nav button {
+	background-color: #3388BD;
+	color: white;
+	height: 30px;
+	width: 80px;
+	border: 1px solid blue;
+}
+
+.search {
+	text-align: center;
+	clear: both;
+	margin: 11% 0 0 0;
+}
+
+.logo {
+	margin: 0 auto;
+	max-width: 30%;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+.search input {
+	width: 470px;
+	height: 40px;
+	font-size: 11pt;
+	border: 1px solid #D8D8D8;
+	box-shadow: 0px 2px 5px #B3B8BA;
+	padding: 15px;
+	background: url('mic.png') no-repeat;
+	background-position: right;
+	background-size: 5%;
+}
+
+.search-bar {
+	max-width: 80%;
+}
+
+.search-button button{
+	color: grey;
+	background-color: #E1E4E6;
+	font-weight: bold;
+	font-size: 11pt;
+	border: 0px;
+	margin-top: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 10px;
+}
+
+.search-button button:hover {
+	color: black;
+}
+
+.search-button button:focus {
+	border: 1px solid blue;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	height: 42px;
+	width: 100%;
+	background-color: #F2F5F7;
+}
+
+.left-nav{
+	float: left;
+	margin-left: 16px;
+}
+
+.right-nav{
+	float: right;
+	margin-right: 16px;
+}
+
+footer nav {
+	
+	padding: 15px 0 0 0;
+}
+
+footer nav a {
+	padding: 3px 14px;
+	color: #646464;
+}
+
+footer nav a:hover{
+	text-decoration: underline;
+}
+
